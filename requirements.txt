@@ -3,5 +3,6 @@ pandas
 numpy
 pymysql
 python-dotenv
-
--e .
+seaborn
+matplotlib
+# -e .

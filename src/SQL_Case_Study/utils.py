@@ -27,7 +27,7 @@ def get_data():
         data=pd.read_sql_query("select * from exams",con=conn)
         print(data.head())
         
-        return data
+        return [data,conn]
         
     except Exception as e:
         logging.info('error for connecting the database')
